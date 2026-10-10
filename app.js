@@ -180,7 +180,7 @@ function renderTable(teams, fixtureBySlug, tbody) {
   tbody.replaceChildren();
   const sorted = [...teams.teams].sort((a, b) => b.elo - a.elo);
 
-  sorted.forEach((team, i) => {
+  sorted.forEach((team) => {
     const fx = fixtureBySlug.get(team.clubeloSlug);
     const tr = document.createElement("tr");
 
@@ -190,7 +190,7 @@ function renderTable(teams, fixtureBySlug, tbody) {
       const color = pctColor(fx.winOrDraw);
       const fixtureLabel = `vs ${fx.opponent}`;
       pctCell = `
-        <td class="col-num">
+        <td class="col-num col-pct">
           <div class="pct-bar">
             <span class="pct-value" style="color: ${color}">${formatPct(fx.winOrDraw)}</span>
             <div class="pct-track" aria-hidden="true">
@@ -199,20 +199,18 @@ function renderTable(teams, fixtureBySlug, tbody) {
           </div>
         </td>`;
       tr.innerHTML = `
-        <td class="col-rank">${i + 1}</td>
+        <td class="col-elo">${team.elo}</td>
         <td class="team-cell">
           ${team.name}
           <span class="fixture-hint">${fixtureLabel} · ${formatKickoffShort(fx.kickoff)}</span>
         </td>
-        <td class="col-num">${team.elo}</td>
         ${pctCell}
       `;
     } else {
       tr.innerHTML = `
-        <td class="col-rank">${i + 1}</td>
+        <td class="col-elo">${team.elo}</td>
         <td class="team-cell">${team.name}</td>
-        <td class="col-num">${team.elo}</td>
-        <td class="col-num muted-cell">—</td>
+        <td class="col-num col-pct muted-cell">—</td>
       `;
     }
 

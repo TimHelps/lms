@@ -98,12 +98,20 @@ td.col-num {
   text-align: right;
 }
 
-th.col-rank,
-td.col-rank {
-  width: 2.5rem;
-  text-align: center;
-  color: var(--muted);
+th.col-elo,
+td.col-elo {
+  width: 3rem;
+  padding-right: 0.5rem;
   font-variant-numeric: tabular-nums;
+  font-size: 0.8125rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+th.col-pct,
+td.col-pct {
+  width: 1%;
+  white-space: nowrap;
 }
 
 tbody tr:last-child td {
@@ -144,7 +152,7 @@ tbody tr:hover {
 }
 
 .pct-track {
-  width: 4.5rem;
+  width: 3rem;
   height: 6px;
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.08);
@@ -184,4 +192,39 @@ code {
   background: var(--accent-soft);
   padding: 0.1em 0.35em;
   border-radius: 4px;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 1.25rem 0.75rem 2rem;
+  }
+
+  th,
+  td {
+    padding: 0.6rem 0.5rem;
+  }
+
+  th.col-pct {
+    font-size: 0.625rem;
+    max-width: 4.5rem;
+    white-space: normal;
+    line-height: 1.2;
+  }
+
+  .pct-track {
+    display: none;
+  }
+
+  .pct-bar {
+    gap: 0;
+  }
+
+  .pct-value {
+    min-width: 2.75rem;
+    font-size: 0.875rem;
+  }
+
+  .fixture-hint {
+    font-size: 0.6875rem;
+  }
 }
