@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Last Man Standing</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%BD%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-header">
+        <h1>Last Man Standing</h1>
+        <p id="page-meta" class="meta">Loading…</p>
+      </header>
+
+      <main>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+        <div class="table-wrap">
+          <table id="lms-table">
+            <thead>
+              <tr>
+                <th class="col-rank">#</th>
+                <th>Team</th>
+                <th class="col-num">Elo</th>
+                <th class="col-num">Win or draw</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </main>
+
+      <footer class="page-footer">
+        <p>
+          Elo from <a href="https://clubelo.com/ENG">ClubElo</a> · match odds via ESPN
+          (de-vigged). Update <code>data/elo.json</code> with
+          <code>python3 scripts/fetch_elo.py</code> when you like.
+        </p>
+      </footer>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

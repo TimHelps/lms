@@ -1,0 +1,201 @@
+{
+  "updated": "2026-10-08",
+  "source": "https://clubelo.com/ENG",
+  "plSource": "https://fantasy.premierleague.com/api/bootstrap-static/",
+  "teams": [
+    {
+      "clubeloSlug": "Arsenal",
+      "name": "Arsenal",
+      "elo": 2040,
+      "aliases": [
+        "ARS",
+        "Arsenal"
+      ]
+    },
+    {
+      "clubeloSlug": "ManCity",
+      "name": "Man City",
+      "elo": 2028,
+      "aliases": [
+        "MCI",
+        "Man City",
+        "Manchester City"
+      ]
+    },
+    {
+      "clubeloSlug": "Liverpool",
+      "name": "Liverpool",
+      "elo": 1937,
+      "aliases": [
+        "LIV",
+        "Liverpool"
+      ]
+    },
+    {
+      "clubeloSlug": "AstonVilla",
+      "name": "Aston Villa",
+      "elo": 1895,
+      "aliases": [
+        "AVL",
+        "Aston Villa"
+      ]
+    },
+    {
+      "clubeloSlug": "Brighton",
+      "name": "Brighton",
+      "elo": 1891,
+      "aliases": [
+        "BHA",
+        "Brighton",
+        "Brighton & Hove Albion"
+      ]
+    },
+    {
+      "clubeloSlug": "Chelsea",
+      "name": "Chelsea",
+      "elo": 1881,
+      "aliases": [
+        "CHE",
+        "Chelsea"
+      ]
+    },
+    {
+      "clubeloSlug": "ManUnited",
+      "name": "Man United",
+      "elo": 1879,
+      "aliases": [
+        "MUN",
+        "Man United",
+        "Man Utd",
+        "Manchester United"
+      ]
+    },
+    {
+      "clubeloSlug": "Newcastle",
+      "name": "Newcastle",
+      "elo": 1879,
+      "aliases": [
+        "NEW",
+        "Newcastle",
+        "Newcastle United"
+      ]
+    },
+    {
+      "clubeloSlug": "Brentford",
+      "name": "Brentford",
+      "elo": 1862,
+      "aliases": [
+        "BRE",
+        "Brentford"
+      ]
+    },
+    {
+      "clubeloSlug": "Bournemouth",
+      "name": "Bournemouth",
+      "elo": 1861,
+      "aliases": [
+        "AFC Bournemouth",
+        "BOU",
+        "Bournemouth"
+      ]
+    },
+    {
+      "clubeloSlug": "Everton",
+      "name": "Everton",
+      "elo": 1827,
+      "aliases": [
+        "EVE",
+        "Everton"
+      ]
+    },
+    {
+      "clubeloSlug": "CrystalPalace",
+      "name": "Crystal Palace",
+      "elo": 1824,
+      "aliases": [
+        "CRY",
+        "Crystal Palace"
+      ]
+    },
+    {
+      "clubeloSlug": "Leeds",
+      "name": "Leeds",
+      "elo": 1817,
+      "aliases": [
+        "LEE",
+        "Leeds",
+        "Leeds United"
+      ]
+    },
+    {
+      "clubeloSlug": "Fulham",
+      "name": "Fulham",
+      "elo": 1807,
+      "aliases": [
+        "FUL",
+        "Fulham"
+      ]
+    },
+    {
+      "clubeloSlug": "Forest",
+      "name": "Forest",
+      "elo": 1805,
+      "aliases": [
+        "Forest",
+        "NFO",
+        "Nott'm Forest",
+        "Nottingham Forest"
+      ]
+    },
+    {
+      "clubeloSlug": "Tottenham",
+      "name": "Tottenham",
+      "elo": 1798,
+      "aliases": [
+        "Spurs",
+        "TOT",
+        "Tottenham",
+        "Tottenham Hotspur"
+      ]
+    },
+    {
+      "clubeloSlug": "Sunderland",
+      "name": "Sunderland",
+      "elo": 1737,
+      "aliases": [
+        "SUN",
+        "Sunderland"
+      ]
+    },
+    {
+      "clubeloSlug": "Ipswich",
+      "name": "Ipswich",
+      "elo": 1694,
+      "aliases": [
+        "IPS",
+        "Ipswich",
+        "Ipswich Town"
+      ]
+    },
+    {
+      "clubeloSlug": "Coventry",
+      "name": "Coventry",
+      "elo": 1689,
+      "aliases": [
+        "COV",
+        "Coventry",
+        "Coventry City"
+      ]
+    },
+    {
+      "clubeloSlug": "Hull",
+      "name": "Hull",
+      "elo": 1635,
+      "aliases": [
+        "HUL",
+        "Hull",
+        "Hull City"
+      ]
+    }
+  ]
+}
