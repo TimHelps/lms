@@ -61,7 +61,7 @@ def fetch_fpl_teams() -> List[dict]:
 
 
 def scrape_clubelo_eng() -> Tuple[str, Dict[str, Tuple[str, int]]]:
-    with urllib.request.urlopen("http://clubelo.com/ENG", timeout=30) as res:
+    with urllib.request.urlopen("https://clubelo.com/ENG", timeout=30) as res:
         html = res.read().decode("utf-8", errors="replace")
 
     m_date = re.search(r'href="/(\d{4}-\d{2}-\d{2})/ENG"', html)
@@ -87,7 +87,7 @@ def scrape_clubelo_eng() -> Tuple[str, Dict[str, Tuple[str, int]]]:
 
 def fetch_elo_from_club_page(slug: str) -> Tuple[str, int]:
     """Fallback when a club is not in the ENG page eloData table."""
-    url = f"http://clubelo.com/{slug}"
+    url = f"https://clubelo.com/{slug}"
     with urllib.request.urlopen(url, timeout=30) as res:
         html = res.read().decode("utf-8", errors="replace")
     values = [float(x) for x in re.findall(r'"Elo": ([0-9.]+)', html)]

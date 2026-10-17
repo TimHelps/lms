@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-15",
   "source": "https://clubelo.com/ENG",
   "plSource": "https://fantasy.premierleague.com/api/bootstrap-static/",
   "teams": [
     {
       "clubeloSlug": "Arsenal",
       "name": "Arsenal",
-      "elo": 2040,
+      "elo": 2045,
       "aliases": [
         "ARS",
         "Arsenal"
@@ -15,7 +15,7 @@
     {
       "clubeloSlug": "ManCity",
       "name": "Man City",
-      "elo": 2028,
+      "elo": 2024,
       "aliases": [
         "MCI",
         "Man City",
@@ -25,7 +25,7 @@
     {
       "clubeloSlug": "Liverpool",
       "name": "Liverpool",
-      "elo": 1937,
+      "elo": 1932,
       "aliases": [
         "LIV",
         "Liverpool"
@@ -34,7 +34,7 @@
     {
       "clubeloSlug": "AstonVilla",
       "name": "Aston Villa",
-      "elo": 1895,
+      "elo": 1899,
       "aliases": [
         "AVL",
         "Aston Villa"
@@ -43,7 +43,7 @@
     {
       "clubeloSlug": "Brighton",
       "name": "Brighton",
-      "elo": 1891,
+      "elo": 1897,
       "aliases": [
         "BHA",
         "Brighton",
@@ -53,7 +53,7 @@
     {
       "clubeloSlug": "Chelsea",
       "name": "Chelsea",
-      "elo": 1881,
+      "elo": 1889,
       "aliases": [
         "CHE",
         "Chelsea"
@@ -62,7 +62,7 @@
     {
       "clubeloSlug": "ManUnited",
       "name": "Man United",
-      "elo": 1879,
+      "elo": 1871,
       "aliases": [
         "MUN",
         "Man United",
@@ -73,7 +73,7 @@
     {
       "clubeloSlug": "Newcastle",
       "name": "Newcastle",
-      "elo": 1879,
+      "elo": 1865,
       "aliases": [
         "NEW",
         "Newcastle",
@@ -83,7 +83,7 @@
     {
       "clubeloSlug": "Brentford",
       "name": "Brentford",
-      "elo": 1862,
+      "elo": 1863,
       "aliases": [
         "BRE",
         "Brentford"
@@ -92,7 +92,7 @@
     {
       "clubeloSlug": "Bournemouth",
       "name": "Bournemouth",
-      "elo": 1861,
+      "elo": 1853,
       "aliases": [
         "AFC Bournemouth",
         "BOU",
@@ -100,27 +100,27 @@
       ]
     },
     {
-      "clubeloSlug": "Everton",
-      "name": "Everton",
-      "elo": 1827,
-      "aliases": [
-        "EVE",
-        "Everton"
-      ]
-    },
-    {
       "clubeloSlug": "CrystalPalace",
       "name": "Crystal Palace",
-      "elo": 1824,
+      "elo": 1825,
       "aliases": [
         "CRY",
         "Crystal Palace"
       ]
     },
     {
+      "clubeloSlug": "Everton",
+      "name": "Everton",
+      "elo": 1823,
+      "aliases": [
+        "EVE",
+        "Everton"
+      ]
+    },
+    {
       "clubeloSlug": "Leeds",
       "name": "Leeds",
-      "elo": 1817,
+      "elo": 1814,
       "aliases": [
         "LEE",
         "Leeds",
@@ -128,18 +128,9 @@
       ]
     },
     {
-      "clubeloSlug": "Fulham",
-      "name": "Fulham",
-      "elo": 1807,
-      "aliases": [
-        "FUL",
-        "Fulham"
-      ]
-    },
-    {
       "clubeloSlug": "Forest",
       "name": "Forest",
-      "elo": 1805,
+      "elo": 1799,
       "aliases": [
         "Forest",
         "NFO",
@@ -150,7 +141,7 @@
     {
       "clubeloSlug": "Tottenham",
       "name": "Tottenham",
-      "elo": 1798,
+      "elo": 1799,
       "aliases": [
         "Spurs",
         "TOT",
@@ -159,28 +150,27 @@
       ]
     },
     {
+      "clubeloSlug": "Fulham",
+      "name": "Fulham",
+      "elo": 1798,
+      "aliases": [
+        "FUL",
+        "Fulham"
+      ]
+    },
+    {
       "clubeloSlug": "Sunderland",
       "name": "Sunderland",
-      "elo": 1737,
+      "elo": 1735,
       "aliases": [
         "SUN",
         "Sunderland"
       ]
     },
     {
-      "clubeloSlug": "Ipswich",
-      "name": "Ipswich",
-      "elo": 1694,
-      "aliases": [
-        "IPS",
-        "Ipswich",
-        "Ipswich Town"
-      ]
-    },
-    {
       "clubeloSlug": "Coventry",
       "name": "Coventry",
-      "elo": 1689,
+      "elo": 1706,
       "aliases": [
         "COV",
         "Coventry",
@@ -188,9 +178,19 @@
       ]
     },
     {
+      "clubeloSlug": "Ipswich",
+      "name": "Ipswich",
+      "elo": 1702,
+      "aliases": [
+        "IPS",
+        "Ipswich",
+        "Ipswich Town"
+      ]
+    },
+    {
       "clubeloSlug": "Hull",
       "name": "Hull",
-      "elo": 1635,
+      "elo": 1638,
       "aliases": [
         "HUL",
         "Hull",
